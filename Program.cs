@@ -50,6 +50,6 @@ class Program
 
 	public static void Main(string[] args)
 	{
-		GenerateTemplateFrom(typeof(Console), "Console");
+		GenerateTemplateFrom(typeof(System.Net.HttpListener), "System.Net.Http.HttpListener");
 	}
 }
